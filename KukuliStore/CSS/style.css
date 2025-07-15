@@ -1,0 +1,465 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    padding: 30px;
+}
+
+footer {
+    padding: 30px;
+    background-color: #D5ECFF;
+    margin-top: 30px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.header img {
+    width: 15rem;
+}
+
+.header input {
+    width: 45rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #D5ECFF;
+    border: 2px solid #6BBCFF;
+}
+
+.header-icons {
+    padding: 10px;
+}
+
+.header-icons i {
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-bar ul li {
+    padding: 15px;
+}
+
+.nav-bar ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.banner-imagen {
+    background-image: url('/img/banner.jpg');
+    background-size: cover;
+    /* o 'contain' */
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+
+.principal {
+    padding: 40px;
+        
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cards {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center
+}
+
+.cards>div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards img {
+    width: 25rem;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.cards p {
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-card {
+    border: 0.5px solid #000;
+    border-radius: 20px;
+}
+
+.buy-card p a {
+    margin-left: 8px;
+}
+
+.buy-card p a i {
+    color: #C98485;
+}
+
+.buy-card img {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.list-card {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.list-card ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.list-card ul li {
+    padding: 10px;
+}
+
+.precio-card {
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.color-dots {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+}
+
+
+.precio-card p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    background-color: #FFFBD5;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.bebitos-section{
+    background-color: #D5ECFF;
+    padding-bottom: 20px;
+}
+.bebitas-section{
+    background-color: #FFD8E6;
+    padding-bottom: 20px;
+}
+
+
+.bebitas-section h2 {
+    padding: 30px;
+    margin-left: 4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.bebitas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bebita-image img {
+    width: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.bebitas-container .cards {
+    margin-right: 10rem;
+}
+
+.see-all-right {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.see-all-right a {
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+    margin-left: 25rem;
+}
+
+.see-all-right a:hover {
+    text-decoration: underline;
+}
+
+.bebitos-section h2 {
+    padding: 30px;
+    margin-left: 4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.bebitos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bebitos-container .cards {
+    margin-left: 10rem;
+}
+
+.bebito-image img {
+    width: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.see-all-left {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.see-all-left a {
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+    margin-right: 25rem;
+}
+
+.see-all-left a:hover {
+    text-decoration: underline;
+}
+
+.logo-footer img {
+    width: 15rem;
+    padding: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.section-footer h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.section-footer h4 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.section-footer p {
+    font-size: 17px;
+    color: #272D2C;
+}
+
+.footer-links {
+    list-style-type: none;
+}
+
+.footer-links li {
+    padding-top: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #272D2C;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    color: #666;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #000;
+}
+
+@media (max-width: 1024px) {
+  .header input {
+    width: 30rem;
+  }
+
+  .cards img {
+    width: 100%;
+    height: auto;
+  }
+
+  .bebita-image img,
+  .bebito-image img,
+  .buy-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .bebitas-container .cards,
+  .bebitos-container .cards {
+    margin: 0;
+  }
+
+  .see-all-left a,
+  .see-all-right a {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .header input {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .header-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-bar ul {
+    flex-direction: column;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .bebitas-container,
+  .bebitos-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .see-all-left a,
+  .see-all-right a {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.8rem;
+    padding: 20px;
+  }
+
+  .header img {
+    width: 10rem;
+  }
+
+  .header-icons i {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .cards img {
+    width: 100%;
+    height: auto;
+  }
+
+  .precio-card p {
+    padding: 8px 20px;
+    font-size: 1rem;
+  }
+
+  .footer-links a {
+    font-size: 15px;
+  }
+
+  .section-footer h3,
+  .section-footer h4 {
+    font-size: 1.4rem;
+  }
+
+  .social-icon {
+    font-size: 18px;
+  }
+}
